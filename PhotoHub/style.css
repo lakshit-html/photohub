@@ -10,7 +10,7 @@ body{
 }
 nav img{
     width: 150px;
-    background-color: rgba(248, 248, 248, 0)255, 255, 255, 0;
+    background-color: rgb(255, 247, 247)255, 255, 255, 0;
     padding-left: 30px;
 }
 nav{
@@ -37,4 +37,27 @@ li a:hover{
     color: coral;
     box-shadow: 2px 2px 50px lightblue;
     font-size: large;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div img{
+    width:400px;
+    height:300px;
+    border:2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+div img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
 }
