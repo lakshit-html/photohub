@@ -73,6 +73,7 @@ li a:hover{
     margin-right: 219px;
     margin-left: auto;
     position: relative;
+    z-index: -20px;
     width: 35%;
     height: 400px;
     background-image: url(download.jpg);
