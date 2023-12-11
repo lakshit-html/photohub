@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div .img1 {
+            height: 100px;
+            width: 100px;
+            float: left;
+            position:absolute;
+            display: flex;
+            animation: changeimage1 5s linear infinite;
+        }
+@keyframes changeimage1 {
+    25%{
+       rotate: 50deg ;
+    }
+    50%{
+        rotate: 100deg ;
+    }
+    75%{
+        rotate: 150deg ;
+    }
+    100%{
+        rotate: 200deg ;
+    }
+}
+        div .img2{
+            height: 100px;
+            width: 100px;
+            float: left;
+            position:absolute;
+            display: flex;
+            animation: changeimage2 4s linear infinite;
+        }
+        @keyframes changeimage2 {
+            25%{
+                rotate: 50deg ;
+             }
+             50%{
+                 rotate: 75deg ;
+             }
+             75%{
+                 rotate: 100deg ;
+             }
+             100%{
+                 rotate: 25deg ;
+             }
+        }
+        div .img3{
+            height: 100px;
+            width: 100px;
+            float: left;
+            position:absolute;
+            display: flex;
+            animation: changeimage3 3s linear infinite;
+        }
+        @keyframes changeimage3 {
+            25%{
+                rotate: 75deg ;
+             }
+             50%{
+                 rotate: 100deg ;
+             }
+             75%{
+                 rotate: 25deg ;
+             }
+             100%{
+                 rotate: 50deg ;
+             }
+        }
+
+        div .img4{
+            height: 100px;
+            width: 100px;
+            float: left;
+            position:absolute;
+            display: flex;
+            
+            animation: changeimage4 2s linear infinite;
+        }
+        @keyframes changeimage4 {
+            25%{
+                rotate: 100deg ;
+             }
+             50%{
+                 rotate: 75deg ;
+             }
+             75%{
+                 rotate: 50deg ;
+             }
+             100%{
+                 rotate: 25deg ;
+             }
+        }
+    </style>
+</head>
+<body>
+    
+<div><img src="/images/01.jpg" alt="" class="img1"></div>
+<div><img src="/images/02.png" alt="" class="img2"></div>
+<div><img src="/images/05.jpg" alt="" class="img3"></div>
+<div><img src="/images/04.jpg" alt="" class="img4"></div>
+
+
+</body>
+</html>
