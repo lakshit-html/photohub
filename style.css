@@ -38,8 +38,7 @@ li a{
     text-decoration: none;
     cursor: pointer;
     transition:  all 2s ;
-    position: relative;
-    z-index: 20px ;
+    position: fixed;
     background-color: #ffffff35;
     backdrop-filter:blur(5px) ;
     border-radius: 5px;
