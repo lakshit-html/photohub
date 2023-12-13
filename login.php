@@ -1,5 +1,8 @@
 <?php
-$db = new PDO("odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=C:\\path\\to\\users.accdb");
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
+$db = new PDO("odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=C:\Users\Lakshit\Documents\user.accdb");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
@@ -15,4 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Invalid username or password!";
     }
 }
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    print_r($_POST); // Output the submitted form data for debugging
+    // Continue with your database insertion logic
+}
+
 ?>
